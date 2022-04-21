@@ -27,3 +27,5 @@ The goal of this project is to implement the famous FOF synthesis techniques(For
 - It is run in real time
 
 **Compile and run in mac OS**: g++ -std=c++11 -Istk/include/ -Lstk/src/ -D__MACOSX_CORE__ FOFsynthesizer.cpp -lstk -lpthread -framework CoreAudio -framework CoreMIDI -framework CoreFoundation -o FOFsynthesizer && ./FOFsynthesizer
+
+**Note**: Be sure to install the STK(Synthesis Toolkit) before run the code. https://ccrma.stanford.edu/software/stk/
