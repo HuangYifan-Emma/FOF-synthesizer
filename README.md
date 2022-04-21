@@ -24,8 +24,8 @@ The goal of this project is to implement the famous FOF synthesis techniques(For
 - Each FOF formant is constructed as a class in C++. 
 - FOF algorithm and overlap adding is implemented as the function in the class. 
 - The main function is for FOF synthesis of 5 formants of a human voice
-- It is run in real time
+- It runs in real time
 
 **Compile and run in mac OS**: g++ -std=c++11 -Istk/include/ -Lstk/src/ -D__MACOSX_CORE__ FOFsynthesizer.cpp -lstk -lpthread -framework CoreAudio -framework CoreMIDI -framework CoreFoundation -o FOFsynthesizer && ./FOFsynthesizer
 
-**Note**: Be sure to install the STK(Synthesis Toolkit) before run the code. https://ccrma.stanford.edu/software/stk/
+**Note**: Be sure to install the STK(Synthesis Toolkit) before running the code. https://ccrma.stanford.edu/software/stk/
